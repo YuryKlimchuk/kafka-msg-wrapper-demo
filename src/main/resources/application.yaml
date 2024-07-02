@@ -1,0 +1,11 @@
+kafka-msg-wrapper:
+  producer:
+    url: localhost:9092
+  consumer:
+    url: localhost:9092
+    topic: DEFAULT_TOPIC
+    groupId: DEFAULT_GROUP_ID
+
+kafka-topic: DEFAULT_TOPIC
+server:
+  port: 8080
