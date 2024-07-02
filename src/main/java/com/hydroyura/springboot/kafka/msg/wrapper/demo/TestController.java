@@ -21,9 +21,9 @@ public class TestController {
     private MsgWrapperProducer producer;
 
     private String USER_CREATE_RESPONSE =
-            "New user with values: name = [%s], surname = [%s], email = [%s] was sent to topic = [%S]";
+            "New user with values: name = [%s], surname = [%s], email = [%s] was sent to topic = [%s]";
     private String USER_UPDATE_EMAIL_RESPONSE =
-            "Update email event for userId = [%s] and value = [%s]  was sent to topic = [%S]";
+            "Update email event for userId = [%s] and value = [%s]  was sent to topic = [%s]";
 
 
     @GetMapping(value = "/create-user")
